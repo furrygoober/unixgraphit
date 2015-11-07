@@ -69,7 +69,7 @@ Select multi-item x axis field # (ie: mpstat: CPU) or n/N for none: n
 Select y axis numbers NOT to graph seperated by a space: ['22', 'n']
 ```
 
-##### Example: load mpstat data from a file, get detail labels and graph the data
+##### Example: load mpstat data from a file, load detailed labels and graph the data
 ```
 ./unix_graphit.py -if mpstat.data.txt -of mpstat.pdf -l labels.txt
 
