@@ -5,6 +5,7 @@ Due to environmental limitations the requirements are: Python Standard Library +
 
 
 ### Options
+'''
 usage: unix_graphit.py [-h] [-v] [-t] -of OUTFILE [-if INFILE] [-l LABELFILE]
                        [-q] [-d] [-c] [-F FIELD] [-ds DATESTRING]
                        [-df DATEFORMAT]
@@ -32,7 +33,7 @@ optional arguments:
   -df DATEFORMAT, --dateformat DATEFORMAT
                         String to use to display dates on the graphs, defaults
                         to datestring
-
+'''
 
 ### Usage
 
