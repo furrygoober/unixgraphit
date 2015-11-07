@@ -48,14 +48,12 @@ cat vmstat.data.txt | ./unix_graphit.py -of vmstat.pdf
 ...
 Line: 1
 ['r', 'b', 'w', 'swap', 'free', 're', 'mf', 'pi', 'po', 'fr', 'de', 'sr', 's0', 's1', 's3', 's4', 'in', 'sy', 'cs', 'us', 'sy', 'id']
-...
 
-Select line number of header row: 1
-
-...
 Line: 2
 [5.0, 0.0, 0.0, 7779448.0, 8687968.0, 136.0, 1110.0, 64.0, 92.0, 98.0, 0.0, 2025.0, 97.0, -0.0, 68.0, 7.0, 17119.0, 30322.0, 19241.0, 18.0, 6.0, 76.0]
-...
+
+
+Select line number of header row: 1
 
 Select line number of data row: 2
 
