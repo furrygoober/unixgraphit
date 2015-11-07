@@ -1,5 +1,5 @@
 # Unixgraphit
-Quick and dirty graphing of text based data.
+###### Quick and dirty graphing of text based data.
 
 I am primarily a UNIX system admin, with some questionably scripting skills. 
 The main goals for writing this script were to learn, have fun, and help troubleshoot issues at work.
