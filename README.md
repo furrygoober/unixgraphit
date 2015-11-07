@@ -36,7 +36,7 @@ optional arguments:
 ```
 
 ### Usage
-##### Example: unix shell pipe vmstat output to the script and save the output
+##### Example: via unix shell piping vmstat output to the script and save the output
 ```
 cat vmstat.data.txt | ./unix_graphit.py -of vmstat.pdf
 
@@ -64,6 +64,65 @@ Select x axis. (ie: Date, or Interval): 22
 Select multi-item x axis field # (ie: mpstat: CPU) or n/N for none: n
 
 Select y axis numbers NOT to graph seperated by a space: ['22', 'n']
+```
+
+##### Example: load mpstat data from a file, get detail labels and graph the data
+```
+./unix_graphit.py -if mpstat.data.txt -of mpstat.pdf -l labels.txt
+
+...
+Line: 0
+['Tue', 'Nov', 3.0, '10:00:49', 'EST', 2015.0, 0.0, 88.0, 2.0, 179.0, 1579.0, 583.0, 2156.0, 95.0, 299.0, 968.0, 5.0, 3151.0, 22.0, 6.0, 0.0, 72.0]
+
+Line: 1
+['Tue', 'Nov', 3.0, '10:00:49', 'EST', 2015.0, 'CPU', 'minf', 'mjf', 'xcal', 'intr', 'ithr', 'csw', 'icsw', 'migr', 'smtx', 'srw', 'syscl', 'usr', 'sys', 'wt', 'idl']
+
+Select line number of header row: 1
+
+Select line number of data row:0
+
+solaris10
+
+Select OS type:solaris10
+
+sysperf
+mpstat
+vmstat
+
+Select OS type:mpstat
+
+
+Fields from selected header row
+
+Field: 0: Tue
+Field: 1: Nov
+Field: 2: 3.0
+Field: 3: 10:00:49
+Field: 4: EST
+Field: 5: 2015.0
+Field: 6: CPU
+Field: 7: minf
+Field: 8: mjf
+Field: 9: xcal
+Field: 10: intr
+Field: 11: ithr
+Field: 12: csw
+Field: 13: icsw
+Field: 14: migr
+Field: 15: smtx
+Field: 16: srw
+Field: 17: syscl
+Field: 18: usr
+Field: 19: sys
+Field: 20: wt
+Field: 21: idl
+Field: 22: Interval: each line is a new data sample
+
+Select x axis. (ie: Date, or Interval):22
+
+Select multi-item x axis field # (ie: mpstat: CPU) or n/N for none: 6
+
+Select y axis numbers NOT to graph seperated by a space: ['22', '6'] 0 1 2 3 4 5
 ```
 
 
