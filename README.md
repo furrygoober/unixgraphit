@@ -1,7 +1,11 @@
 # Unixgraphit
 Quick and dirty graphing of text based data.
 
-Due to environmental limitations the requirements are: Python Standard Library + python matplotlib library.
+I am primarily a UNIX system admin, with some questionably scripting skills. 
+The main goals for writing this script were to learn, have fun, and help troubleshooting issues at work.
+Hopefully a few other people out there may find this script useful.
+
+Due to environmental limitations the requirements are limited to: Python Standard Library + python matplotlib library.
 
 
 ### Options
