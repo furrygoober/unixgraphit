@@ -1,0 +1,55 @@
+solaris10:mpstat:minf:minor faults
+solaris10:mpstat:mjf:major faults
+solaris10:mpstat:xcal:inter-processor cross-calls
+solaris10:mpstat:intr:interrupts
+solaris10:mpstat:ithr:interrupts as threads
+solaris10:mpstat:csw:context switches
+solaris10:mpstat:icsw:involuntary context switches
+solaris10:mpstat:migr:thread migrations
+solaris10:mpstat:smtx:spins on mutexes
+solaris10:mpstat:srw:spins on readers/writer locks
+solaris10:mpstat:syscl:system calls
+solaris10:mpstat:usr:percent user time
+solaris10:mpstat:sys:percent system time
+solaris10:mpstat:wt:I/O wait (broken: will always be zero)
+solaris10:mpstat:idl:percent idle time
+solaris10:vmstat:r:Kernel threads in run queue
+solaris10:vmstat:b:Blocked kernel threads
+solaris10:vmstat:w:Swapped out light-weight processes
+solaris10:vmstat:swap:Available swap space (Kbytes)
+solaris10:vmstat:free:Size of the free list (Kbytes)
+solaris10:vmstat:re:Page reclaim
+solaris10:vmstat:mf:Minor faults
+solaris10:vmstat:pi:Kilobytes paged in
+solaris10:vmstat:po:Kilobytes paged out
+solaris10:vmstat:fr:Kilobytes freed
+solaris10:vmstat:de:Anticipated short-term memory shortfall (Kbytes)
+solaris10:vmstat:sr:Pages scanned
+solaris10:vmstat:s0:Disk Operations
+solaris10:vmstat:s1:Disk Operations
+solaris10:vmstat:s2:Disk Operations
+solaris10:vmstat:s3:Disk Operations
+solaris10:vmstat:s4:Disk Operations
+solaris10:vmstat:in:Interrupts
+solaris10:vmstat:sy:System calls
+solaris10:vmstat:cs:Context switches
+solaris10:vmstat:us:User cpu time
+solaris10:vmstat:sy:System cpu time
+solaris10:vmstat:id:Idle cpu time
+solaris10:vmstat:epi:Executable page-ins
+solaris10:vmstat:epo:Executable page-outs
+solaris10:vmstat:epf:Executable page-frees
+solaris10:vmstat:api:Anonymous page-ins
+solaris10:vmstat:apo:Anonymous page-outs
+solaris10:vmstat:apf:Anonymous page-frees
+solaris10:vmstat:fpi:File system page-ins
+solaris10:vmstat:fpo:File system page-outs
+solaris10:vmstat:fpf:File system page-frees
+solaris10:sysperf:%CPU:CPU Utilization
+solaris10:sysperf:%Mem:Mem  Utilization
+solaris10:sysperf:%Disk:Disk  Utilization
+solaris10:sysperf:%Net:Net  Utilization
+solaris10:sysperf:CPU:CPU Saturation
+solaris10:sysperf:Mem:Mem Saturation
+solaris10:sysperf:Disk:Disk Saturation
+solaris10:sysperf:Net:Net Saturation
