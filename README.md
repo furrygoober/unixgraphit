@@ -9,6 +9,10 @@ Due to environmental limitations the requirements are limited to: Python Standar
 
 You should be able to throw a wide range of text base numbers at this thing and get some graphs. (mpstat, vmstat, iostat, nicstat, prstat, pidstat, fsstat, intrstat, sar, etc)
 
+The detailed labels file (labels.txt) is very limited, maybe someday I'll expand it.
+
+If anyone takes up the mantel and does any fixes/additions to the script please let me know where to grab the improved files :)
+
 ### Options
 ```
 usage: unix_graphit.py [-h] [-v] [-t] -of OUTFILE [-if INFILE] [-l LABELFILE]
