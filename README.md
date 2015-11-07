@@ -43,6 +43,8 @@ optional arguments:
                         String to use to display dates on the graphs, defaults
                         to datestring
 ```
+### Caveats
+-- When using data like mpstat (or any data) make sure all sections of data are complete, or you'll get a bunch of x and y don't match.  If your system has 24 cpus, make sure the last section of hte mpstat data has all the lines for all 24 cpus.
 
 ### Usage
 ##### Example: via unix shell piping vmstat output to the script and save the output
