@@ -36,4 +36,34 @@ optional arguments:
 ```
 
 ### Usage
+##### Example: unix shell pipe vmstat output to the script and save the output
+```
+cat vmstat.data.txt | ./unix_graphit.py -of vmstat.pdf
+
+...
+Line: 1
+['r', 'b', 'w', 'swap', 'free', 're', 'mf', 'pi', 'po', 'fr', 'de', 'sr', 's0', 's1', 's3', 's4', 'in', 'sy', 'cs', 'us', 'sy', 'id']
+...
+
+Select line number of header row: 1
+
+...
+Line: 2
+[5.0, 0.0, 0.0, 7779448.0, 8687968.0, 136.0, 1110.0, 64.0, 92.0, 98.0, 0.0, 2025.0, 97.0, -0.0, 68.0, 7.0, 17119.0, 30322.0, 19241.0, 18.0, 6.0, 76.0]
+...
+
+Select line number of data row: 2
+
+...
+Field: 21: id
+Field: 22: Interval: each line is a new data sample
+
+
+Select x axis. (ie: Date, or Interval): 22
+
+Select multi-item x axis field # (ie: mpstat: CPU) or n/N for none: n
+
+Select y axis numbers NOT to graph seperated by a space: ['22', 'n']
+```
+
 
