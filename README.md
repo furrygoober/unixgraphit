@@ -44,7 +44,7 @@ optional arguments:
                         to datestring
 ```
 ### Caveats
-- When using data like mpstat (or any data) make sure all sections of data are complete, or you'll get a bunch of x and y don't match.  If your system has 24 cpus, make sure the last section of hte mpstat data has all the lines for all 24 cpus.
+- When using data like mpstat (or any data) make sure all sections of data are complete, or it will spit out a bunch of errors about x and y not matching. ie. If your system has 24 cpus, make sure the last section of the mpstat data has lines for all 24 cpus.
 - stuff
 - 
 ### Usage
