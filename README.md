@@ -1,7 +1,7 @@
 # Unixgraphit
 ###### Quick and dirty graphing of text based data.
 
-I am primarily a UNIX system admin, with some questionably scripting skills. 
+I am primarily a UNIX system admin, with some questionable scripting skills. 
 The main goals for writing this script were to learn, have fun, and help troubleshoot issues at work.
 Hopefully a few other people out there may find this script useful.
 
@@ -134,5 +134,5 @@ Select multi-item x axis field # (ie: mpstat: CPU) or n/N for none: 6
 
 Select y axis numbers NOT to graph seperated by a space: ['22', '6'] 0 1 2 3 4 5
 ```
-
-
+## Example output:
+https://github.com/furrygoober/unixgraphit/files/29448/sysperf.pdf
