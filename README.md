@@ -142,5 +142,4 @@ Select multi-item x axis field # (ie: mpstat: CPU) or n/N for none: 6
 
 Select y axis numbers NOT to graph seperated by a space: ['22', '6'] 0 1 2 3 4 5
 ```
-## Example output:
-https://github.com/furrygoober/unixgraphit/files/29448/sysperf.pdf
+
