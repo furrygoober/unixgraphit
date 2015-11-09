@@ -500,9 +500,9 @@ if __name__ == '__main__':
     import sys
     import argparse
     import datetime
-    #import matplotlib
+    import matplotlib
     # Tell matplotlib not to use XWindow display
-    #matplotlib.use('Agg')
+    matplotlib.use('Agg')
 
     from matplotlib.backends.backend_pdf import PdfPages
     import matplotlib.pyplot as plt
