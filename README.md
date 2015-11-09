@@ -5,7 +5,7 @@ I am primarily a UNIX system admin, with some questionable scripting skills.
 The main goals for writing this script were to learn, have fun, and help troubleshoot issues at work.
 Hopefully a few other people out there may find this script useful.
 
-Due to environmental limitations the requirements are limited to: Python Standard Library + python matplotlib library.
+Due to environmental limitations the requirements are limited to: Python Standard Library (2.7) + python matplotlib (1.5) library.
 
 You should be able to throw a wide range of text base numbers at this thing and get some graphs. (mpstat, vmstat, iostat, nicstat, prstat, pidstat, fsstat, intrstat, sar, etc)
 
