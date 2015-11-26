@@ -464,7 +464,7 @@ def main():
         datefmt = raw_input('Enter date string (Default: %s) : ' % args.datestring)
 
         if datefmt != '':
-            args.datestring = datemft
+            args.datestring = datefmt
 
     if args.customy:
         customy = getcusty(hasheddata[headerkey])
